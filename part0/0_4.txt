@@ -1,2 +1,8 @@
-browser -> server : Browser will send the note to the server
-server -> browser : sends http 302 to redirect to notes
+browser -> server : Browser will send the note to the server to new_note
+server -> browser : sends http 302 asking browser to redirect to notes
+browser -> server : requests for main.css
+server -> browser : server sends main.css
+browser -> server : requests for main.js
+server -> browser : server sends main.js
+browser -> server : requests for data.json
+server -> browser : server sends data.json
