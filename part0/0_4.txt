@@ -1,0 +1,2 @@
+browser -> server : Browser will send the note to the server
+server -> browser : sends http 302 to redirect to notes
